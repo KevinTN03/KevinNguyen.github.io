@@ -71,26 +71,26 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-			"Global freight rail is growing and remains strategically important.",
-			"Rail carries about 18% of EU inland freight, 36% in the U.S., and 27% in India.",
-			"Road dominates many freight systems, so rail often receives less attention.",
-			"In Canada, rail accounted for 10.5% of international merchandise trade value in 2024."
+			"This study develops an integrated roadway-and-traffic simulation for the Bayview Avenue and Finch Avenue East intersection in Toronto .",
+			"The study examines how simulated traffic performance changes under human-driven vehicle (HDV), connected/autonomous vehicle (CAV), and intervention conditions. ",
+			"Stage A1 represents the study-area roads, junctions, turns, and lane connections in Simulation of Urban MObility (SUMO).",
+			"Stage A2 adds major-road traffic movements and traffic controls, then assesses the speed–density relationship on the same selected roadway edge."
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-			"Railway operations are hard to assess.",
-			"3D asset creation is time-consuming.",
-			"2D models lack immersion.",
-			"Results are difficult to communicate."
+			"Simulate train scheduling, signalling, and capacity in SUMO.",
+			"Determine how replacing HDVs with CAVs affects speed–density.",
+			"Compare HDV and CAV scenarios under identical controlled conditions.",
+			"Verify a signal intervention with documented before-and-after settings."
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-			"Simulate train scheduling, signaling, and capacity in SUMO.",
-			"Create 3D digital assets using generative AI and blender.",
-			"Create 3D rail environment and VR video in Unity.",
-			"Present results in different styles through KPIs, figures, and a showcase website."
+			"Model the Bayview–Finch intersection and its 100% HDV baseline in SUMO.",
+			"Compare edge E66 speed–density under 100% CAV and 100% HDV.",
+			"Select, implement, and evaluate one intervention on edge E66.",
+			"Base the analysis on speed–density data from a single edge."
     ]
   },
 
