@@ -58,12 +58,12 @@ window.SITE_CONFIG = {
 
   intro: {
     projectTitleLabel: "Project Title",
-    projectTitle: "Development of Digital Twin of a Railway Corridor Using Unity Game Engine and SUMO Traffic Simulation",
+    projectTitle: "Utilization of Sumo and Netedit to simulate traffic conditions on Bayview Avenue and Finch Avenue East intersection in Toronto, Ontario ",
     heroVideo: "assets/video/video.mp4",
     heroVideoPoster: "",
     heroVideoAlt: "Autoplay preview video (academic project)",
     videoCaption:
-      "Autoplay preview (≈20 seconds): raw video → Traffic Simulation → Blender → Unity → Results"
+      "Traffic simulation of Base Scenario 100% HDV and Scenario of 100% AV / CAV"
   },
 
   caseStudy: {
