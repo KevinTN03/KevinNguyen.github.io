@@ -98,18 +98,18 @@ window.SITE_CONFIG = {
     title: "Methodology",
     steps: [
       {
-        title: "Step 1: Train Scheduling and Signaling (SUMO Simulation)",
-				text: "Build the rail network and test routing, signaling, and timetables.",
+        title: "Step 1:Build the Network and Baseline.",
+				text: "Trace the Bayview–Finch intersection in NetEdit and simulate 100% HDV traffic on edge E66.",
         image: "assets/img/image2.jpg"
       },
       {
-				title: "Step 2: Digital Twin Assets Developement (Blender)",
-				text: "Create a 3D railway assets using generative AI and blender.",
+				title: "Step 2: Simulate 100% CAV Traffic",
+				text: "Replace HDVs with CAVs that use shorter gaps and headways, then compare speed–density on E66.",
         image: "assets/img/image3.jpg"
       },
       {
-				title: "Step 3: Immersive VR Visualization (Unity)",
-				text: "Create a 3D railway scene and produce a VR 360-degree video.",
+				title: "Step 3: Test a Signal Intervention",
+				text: "Extend E66's green phase from 27 s to 30 s and compare speed–density before and after.",
         image: "assets/img/image4.jpg"
       },
       {
