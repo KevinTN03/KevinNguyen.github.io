@@ -88,9 +88,9 @@ window.SITE_CONFIG = {
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
 			"Model the Bayview–Finch intersection and its 100% HDV baseline in SUMO.",
-			"Compare edge E66 speed–density under 100% CAV and 100% HDV.",
-			"Select, implement, and evaluate one intervention on edge E66.",
-			"Base the analysis on speed–density data from a single edge."
+			"Compare speed–density on edge E66 under 100% CAV and 100% HDV.",
+			"Implement one intervention and compare speed–density on E66 before and after.",
+			"Present results in different styles through KPIs, figures, and a shorter showcase website."
     ]
   },
 
