@@ -196,7 +196,7 @@ window.SITE_CONFIG = {
       "This section clarifies academic context, roles, tools, and sources. Clear attribution improves credibility and shows ethical data handling.",
 
     members: [
-      { name: "Your Name", role: "Rail Scheduling & Signaling + Digital Twin I, Immersive VR Visualization + Results & Communication" }
+      { name: "Kevin Nguyen", role: "SUMO Road Network Development + Traffic Demand and Signal Configuration + Report Writing and References, 3D Asset Generation and Blender Modelling + Asset Preparation, Materials and FBX Export" }
     ],
 
     acknowledgments: [
