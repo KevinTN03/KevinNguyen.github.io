@@ -124,7 +124,7 @@ window.SITE_CONFIG = {
     title: "Methodology Steps (Demo Modules)",
     modules: [
       {
-        title: "Module 1: Train Scheduling & Signaling (SUMO)",
+        title: "Module 1: Train Scheduling & Signalling (SUMO)",
         bullets: [
 				  { text: "Build a simulated rail network in SUMO with train routing and maximum operating speed." },
           { text: "Design fixed-block rail signals and define station stops along the corridor." },
@@ -133,10 +133,10 @@ window.SITE_CONFIG = {
         image: "assets/img/image2.jpg"
       },
       {
-        title: "Module 2: Digital Twin Assets Developement (Blender)",
+        title: "Module 2: Digital Twin Assets Development (Blender)",
         bullets: [
           { text: "Generative AI: use Meshy.ai tool to develop different assets." },
-          { text: "From generative AI to belnder." },
+          { text: "From generative AI to Blender." },
           { text: "Preprocessing assets in Blender ." }
         ],
         image: "assets/img/image3.jpg"
@@ -165,28 +165,28 @@ window.SITE_CONFIG = {
 	results: {
 			title: "Results & Potential Improvements",
 			subtitle:
-				"Train schedule simulation outputs across two scenarios showing arrivals, departures, and dwell time across four stations. Results are for educational purposes only.",
+				"Speed–density outputs on edge E66 comparing the 100% HDV baseline with a 100% CAV scenario and a signal-timing intervention.",
 
 			charts: {
 				left: {
-					title: "Scenario 1 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Scenario 1 — 100% CAV vs. 100% HDV Baseline: Speed vs. Density",
 					src: "assets/img/image6.jpg",
-					alt: "Scenario 1 train schedule chart showing arrivals and departures across S1 to S4"
+					alt: "Speed-density chart for edge E66 comparing the 100% CAV scenario with the 100% HDV baseline"
 				},
 				right: {
-					title: "Scenario 2 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Scenario 2 — Green Time 27 s to 30 s: Speed vs. Density",
 					src: "assets/img/image7.jpg",
-					alt: "Scenario 2 train schedule chart showing arrivals and departures across S1 to S4"
+					alt: "Speed-density chart for edge E66 comparing the HDV baseline before and after the green-time extension"
 				}
 			},
 
 			discussionTitle: "Discussion",
 			discussionBullets: [
-				"Scenario 1 provides a stable baseline timetable with consistent station dwell and smooth train progression.",
-				"Scenario 2 applies a delay at S2, which then propagates to downstream stations.",
-				"Delay effects grow across frequency levels, with major increases in arrival and departure times at S3 and S4.",
-				"S1 is only slightly affected, while downstream stations absorb most of the disruption.",
-				"This demonstrates the importance of recovery time, dwell management, and operational control in rail scheduling."
+				"The HDV baseline fits Greenshields well (vf = 8.0 m/s, kj = 83 veh/km, R² = 0.904).",
+				"CAVs lowered free-flow speed to 7.4 m/s but raised jam density to 92 veh/km.",
+				"CAVs were slightly faster only at higher densities, not across all conditions.",
+				"The 3 s green extension raised fitted capacity by about 11%, but most data points barely moved.",
+				"More simulation runs and queue, delay, and throughput measures are needed to confirm benefits."
 			]
 		},
 
