@@ -123,24 +123,38 @@ window.SITE_CONFIG = {
   implementation: {
     title: "Methodology Steps (Demo Modules)",
     modules: [
-      {
-        title: "Module 1: Train Scheduling & Signalling (SUMO)",
-        bullets: [
-				  { text: "Build a simulated rail network in SUMO with train routing and maximum operating speed." },
-          { text: "Design fixed-block rail signals and define station stops along the corridor." },
-          { text: "Configure timetable, scheduled departures, running time, dwell time, and headway." }
-        ],
-        image: "assets/img/image2.jpg"
-      },
-      {
-        title: "Module 2: Digital Twin Assets Development (Blender)",
-        bullets: [
-          { text: "Generative AI: use Meshy.ai tool to develop different assets." },
-          { text: "From generative AI to Blender." },
-          { text: "Preprocessing assets in Blender ." }
-        ],
-        image: "assets/img/image3.jpg"
-      },
+    {
+  title: "Module 1: Network Building (Bayview–Finch)",
+  bullets: [
+    { text: "Trace the Bayview–Finch major and local roads in SUMO NetEdit." },
+    { text: "Model approach, departure and turning lanes with permitted junction connections." },
+    { text: "Check road continuity, valid turns, lane counts and right-of-way." }
+  ]
+},
+{
+  title: "Module 2: 100% HDV Baseline Simulation",
+  bullets: [
+    { text: "Apply traffic demand, routes, signal phases and speed limits." },
+    { text: "Simulate 100% HDV traffic using SUMO's default car-following parameters." },
+    { text: "Record speed and density on edge E66 and fit a Greenshields model to the 37 observations." }
+  ]
+},
+{
+  title: "Module 3: 100% CAV Simulation",
+  bullets: [
+    { text: "Replace all HDVs with CAVs while keeping demand, routes and signals unchanged." },
+    { text: "Shorten the standstill gap (2.5 → 1.5 m) and headway (1.0 → 0.6 s)." },
+    { text: "Raise acceleration (2.6 → 2.9 m/s²) and deceleration (4.5 → 7.5 m/s²), then compare speed–density on E66." }
+  ]
+},
+{
+  title: "Module 4: Signal Timing Intervention",
+  bullets: [
+    { text: "Baseline shows congestion on E66, with many intervals above the 41.5 veh/km critical density." },
+    { text: "Extend E66's green phase from 27 s to 30 s, with everything else unchanged." },
+    { text: "Expect slightly shorter queues, higher speeds and more capacity." }
+  ]
+},
       {
         title: "Module 3: Immersive VR Visualization (Unity)",
         bullets: [
