@@ -129,7 +129,8 @@ window.SITE_CONFIG = {
     { text: "Trace the Bayview–Finch major and local roads in SUMO NetEdit." },
     { text: "Model approach, departure and turning lanes with permitted junction connections." },
     { text: "Check road continuity, valid turns, lane counts and right-of-way." }
-  ]
+  ],
+		image: "assets/img/image2.jpg"
 },
 {
   title: "Module 2: 100% HDV Baseline Simulation",
@@ -137,7 +138,8 @@ window.SITE_CONFIG = {
     { text: "Apply traffic demand, routes, signal phases and speed limits." },
     { text: "Simulate 100% HDV traffic using SUMO's default car-following parameters." },
     { text: "Record speed and density on edge E66 and fit a Greenshields model to the 37 observations." }
-  ]
+  ],
+	 image: "assets/img/image3.jpg"
 },
 {
   title: "Module 3: 100% CAV Simulation",
@@ -145,7 +147,8 @@ window.SITE_CONFIG = {
     { text: "Replace all HDVs with CAVs while keeping demand, routes and signals unchanged." },
     { text: "Shorten the standstill gap (2.5 → 1.5 m) and headway (1.0 → 0.6 s)." },
     { text: "Raise acceleration (2.6 → 2.9 m/s²) and deceleration (4.5 → 7.5 m/s²), then compare speed–density on E66." }
-  ]
+  ],
+	 image: "assets/img/image4.jpg"
 },
 {
   title: "Module 4: Signal Timing Intervention",
@@ -153,29 +156,9 @@ window.SITE_CONFIG = {
     { text: "Baseline shows congestion on E66, with many intervals above the 41.5 veh/km critical density." },
     { text: "Extend E66's green phase from 27 s to 30 s, with everything else unchanged." },
     { text: "Expect slightly shorter queues, higher speeds and more capacity." }
-  ]
+  ],
+	 image: "assets/img/image5.jpg"
 },
-      {
-        title: "Module 3: Immersive VR Visualization (Unity)",
-        bullets: [
-				  { text: "Develop a 3D railway environment including stations, buildings, trees, and rolling stock." },
-          { text: "Configure visualization fundamentals: lighting, camera position, time of day, and scene composition." },
-          { text: "Produce a VR 360-degree video output for immersive presentation and portfolio use." }
-        ],
-        image: "assets/img/image4.jpg"
-      },
-      {
-        title: "Module 4: Results & Communication",
-        bullets: [
-          { text: "Dashboard or plot set: KPI cards, bar charts, and/or time series." },
-          { text: "Scenario story: what changed, what improved, and what tradeoffs appeared." },
-          { text: "Limitations + next steps: what data would strengthen confidence." }
-        ],
-        image: "assets/img/image5.jpg"
-      }
-    ]
-  },
-
 	results: {
 			title: "Results & Potential Improvements",
 			subtitle:
