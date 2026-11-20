@@ -27,16 +27,16 @@ window.SITE_CONFIG = {
       "Academic Project · Educational Use Only · Not Official City Work"
   },
 
-  theme: {
-    heroBg: "#111111",
-    heroText: "#ffffff",
-    pageBg: "#f8fafc",
-    accent: "#7c3aed"
+ theme: {
+    heroBg: "#0b1220",    // deep night-city navy
+    heroText: "#e0f2fe",  // soft icy white
+    pageBg: "#f1f5f9",    // clean light slate
+    accent: "#06b6d4"     // electric cyan, the "digital" glow
   },
 
   dividers: {
-    dividerBg: "#f9f9f9",
-    dividerText: "#ffffff"
+    dividerBg: "#0f172a", // dark band, like a dashboard panel
+    dividerText: "#fbbf24" // signal amber
   },
 
   footer: {
